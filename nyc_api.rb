@@ -18,7 +18,7 @@ require 'net/http'
       program["agency"]
     end
   end
-
+ 
 end
 
  programs = GetPrograms.new.get_programs
